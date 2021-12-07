@@ -25,12 +25,12 @@ Built with React, classic procedure.
 1. Clone the repository
 
    ```
-   git clone https://github.com/dunky11/react-saas-template
+   git clone https://github.com/Solarity-VR/Website
    ```
 2. Install dependencies, this can take a minute
 
    ```
-   cd react-saas-template
+   cd Website
    npm install
    ```
 3. Start the local server
