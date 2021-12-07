@@ -2,27 +2,59 @@
 
 <h3>Solarity's Website</h3>
 
-Built with React, to run it download the folder and run the classic 
+Built with React, classic procedure.
 
-npm install
-To install the dependencies package.
+## Getting Started
 
-npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+#### Node.js 12+ (versions below could work, but are not tested)
 
-npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+* Linux:
 
-npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```
+   sudo apt install nodejs npm
+   ```
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+* Windows or macOS:
 
-See the section about deployment for more information.
+   https://nodejs.org/en/
+
+### Installing
+
+1. Clone the repository
+
+   ```
+   git clone https://github.com/dunky11/react-saas-template
+   ```
+2. Install dependencies, this can take a minute
+
+   ```
+   cd react-saas-template
+   npm install
+   ```
+3. Start the local server
+
+   ```
+   npm start
+   ```
+
+Your browser should now open and show the app. Otherwise open http://localhost:3000/ in your browser. Editing files will automatically refresh the page.
+
+### What to do next?
+
+If you are new to React, you should watch a [basic React tutorial](https://www.youtube.com/results?search_query=react+tutorial) first.
+
+If you know React, then most of the information you need is in the [Material-UI documentation](https://material-ui.com/getting-started/usage/).
+
+You can go into [src/theme.js](/src/theme.js) and change the primary and secondary color codes at the top of the script to the values you like and some magic will happen.
+
+## Deployment
+
+If you are satisfied with the state of your website you can run:
+
+```
+npm run build 
+```
+
+It will create a folder named build with your compiled project inside. After that copy its content into your webroot and you are ready to go.
