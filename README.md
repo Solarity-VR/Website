@@ -30,7 +30,7 @@ Built with React, classic procedure.
 2. Install dependencies, this can take a minute
 
    ```
-   cd Website
+   cd Website-main
    npm install
    ```
 3. Start the local server
